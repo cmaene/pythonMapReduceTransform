@@ -99,6 +99,16 @@ def pandatransform(data):
     #dxassociation=dxassociation.drop('dxNA',1)
     #print(dxassociation) # to check result
     dxassociation.to_csv('dxassociation.csv')
+'''
+dxassociation.csv example:
+order dx008 dx038 dx112 dx244 dx255 dx263 dx272 dx276 dx285 dx287  ...  dxV58  \
+id                                                                 ...          
+1       NaN   NaN   NaN     T   NaN   NaN     T   NaN   NaN   NaN  ...    NaN   
+2       NaN   NaN   NaN   NaN     T   NaN   NaN   NaN   NaN   NaN  ...    NaN   
+3       NaN     T     T   NaN     T     T   NaN   NaN   NaN   NaN  ...    NaN   
+4         T   NaN   NaN   NaN     T   NaN   NaN     T   NaN   NaN  ...      T   
+5       NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN     T     T  ...    NaN 
+'''
 
 # =============================
 if __name__ == '__main__':
