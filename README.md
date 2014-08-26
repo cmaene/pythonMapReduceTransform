@@ -2,8 +2,9 @@ pythonMapReduceTransform
 ========================
 
 data transformation with MapReduce and Pandas - the output is the data for association rules analysis.
-I have a code to do the same in R but the code takes a few days to complete. MapReduce processes data
-in a much faster manner, and pandas is an excellent collection of data manipulation tools.
+I have a code to do the same in R (see "createdata4associationrules.md") but the code took a few days to complete (N=43048 with up to 11 different DX code per obs.) 
+
+Processing data using MapReduce is much better/faster - the script finished in less than 15 seconds! Pandas is also an excellent collection of data manipulation tools..
 
 
 INPUT*****************************
